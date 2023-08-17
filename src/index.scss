@@ -29,27 +29,6 @@ body{
   font-size: 18px;
   font-weight: 500;
   color: rgb(100, 100, 100);
-  .wrapper{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    .header{
-      position: fixed;
-      left: 0;
-      top: 0;
-      z-index: 100;
-      background-color: white;
-      width: 100%;
-      border-bottom: 1px solid rgba(205, 205, 205, 0.19);
-    }
-    .main{
-      flex: 1 0 100%;
-      padding-top: 200px;
-    }
-    footer{
-      flex: 0 0 auto;
-    }
-  }
 }
 
 .main__container{
